@@ -74,8 +74,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 );
               },
               style: ButtonStyle(
-                  backgroundColor:
-                      MaterialStateProperty.all<Color>(Colors.blue)),
+                  backgroundColor: WidgetStateProperty.all<Color>(Colors.blue)),
               child: const Text(
                 'Search Address',
                 style: TextStyle(color: Colors.white),

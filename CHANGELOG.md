@@ -1,3 +1,8 @@
+## 1.1.0
+
+- Updated minimum supported SDK version to Flutter 3.24/Dart 3.5.
+- Updated `flutter_inappwebview` dependency version to the latest `^6.1.5`
+
 ## 1.0.0
 
 ### ENHANCEMENTS

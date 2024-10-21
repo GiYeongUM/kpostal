@@ -1,4 +1,4 @@
-library kpostal;
+library;
 
 export 'src/kpostal_model.dart';
 export 'src/constant.dart';
