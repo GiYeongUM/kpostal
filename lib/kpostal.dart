@@ -164,6 +164,7 @@ class _KpostalViewState extends State<KpostalView> {
               }
 
               return InAppWebView(
+                gestureRecognizers: Set()..add(Factory<VerticalDragGestureRecognizer>(() => VerticalDragGestureRecognizer())),
                 initialSettings: InAppWebViewSettings(
                   useHybridComposition: true,
                   javaScriptEnabled: true,
